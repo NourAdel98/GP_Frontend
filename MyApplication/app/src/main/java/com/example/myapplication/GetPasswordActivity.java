@@ -29,7 +29,6 @@ public class GetPasswordActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_get_password);
 
         Intent intent = getIntent();
         email = intent.getStringExtra("email");
@@ -37,6 +36,8 @@ public class GetPasswordActivity extends AppCompatActivity {
 
         sendToDatabase();
         jasonParse();
+
+        setContentView(R.layout.activity_get_password);
 
         ok=(Button)findViewById(R.id.btn);
 
