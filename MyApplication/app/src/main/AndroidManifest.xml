@@ -31,7 +31,8 @@
         <activity android:name=".Supporter_SignUpActivity" />
         <activity android:name=".ForgetPasswordActivity" />
         <activity android:name=".GetPasswordActivity" />
-        <activity android:name=".CodeActivity"></activity>
+        <activity android:name=".CodeActivity" />
+        <activity android:name=".RequestActivity"></activity>
     </application>
 
 </manifest>

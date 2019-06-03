@@ -41,6 +41,15 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        Button button = (Button) findViewById(R.id.request);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, RequestActivity.class);
+                startActivity(intent);
+            }
+        });
+
         email = (EditText) findViewById(R.id.txt1);
         password = (EditText) findViewById(R.id.txt2);
 
@@ -156,7 +165,6 @@ public class LoginActivity extends AppCompatActivity {
         };
         queue.add(stringRequest);
     }
-
 
 }
 

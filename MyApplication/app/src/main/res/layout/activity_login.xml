@@ -66,9 +66,20 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="75dp"
         android:ems="10"
-        android:hint="                              Email"
+        android:hint="Email"
         android:inputType="textEmailAddress" />
 
 
+    <Button
+        android:id="@+id/request"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:text="request" />
 </RelativeLayout>
 
